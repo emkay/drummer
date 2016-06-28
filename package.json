@@ -1,0 +1,28 @@
+{
+  "name": "drummer",
+  "version": "1.0.0",
+  "description": "Drum synth",
+  "main": "index.js",
+  "scripts": {
+    "dev": "budo example/index.js",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emkay/drummer.git"
+  },
+  "keywords": ["music", "drums", "synth", "web audio"],
+  "author": "Michael Matuzak <mmatuzak@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emkay/drummer/issues"
+  },
+  "homepage": "https://github.com/emkay/drummer#readme",
+  "devDependencies": {
+    "budo": "^8.3.0",
+    "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "audio-context": "^0.1.0"
+  }
+}
